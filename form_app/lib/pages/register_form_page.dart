@@ -239,9 +239,9 @@ class _RegisterFormPageState extends State<RegisterFormPage> {
             ),
             ElevatedButton(
               onPressed: ()async{
-                await context.setLocale(Locale('kk'));
+                await context.setLocale(Locale('ru'));
               },
-              child: const Text('KZ'),
+              child: const Text('RU'),
               //color: Colors.green,
             ),
             ElevatedButton(
